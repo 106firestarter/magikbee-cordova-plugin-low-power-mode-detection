@@ -1,0 +1,25 @@
+{
+  "name": "magikbee-cordova-plugin-low-power-mode-detection",
+  "version": "1.0.0",
+  "description": "This plugin is able to detect if an iOS device is on low power mode.",
+  "cordova": {
+    "id": "magikbee-cordova-plugin-low-power-mode-detection",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/106firestarter/magikbee-cordova-plugin-low-power-mode-detection.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Magikbee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/106firestarter/magikbee-cordova-plugin-low-power-mode-detection/issues"
+  },
+  "homepage": "https://github.com/106firestarter/magikbee-cordova-plugin-low-power-mode-detection#readme"
+}

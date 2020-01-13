@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="magikbee-cordova-plugin-low-power-mode-detection" version="1.0.0">
+  <name>lowPowerModeDetection</name>
+  <js-module name="lowPowerModeDetection" src="www/lowPowerModeDetection.js">
+    <clobbers target="cordova.plugins.lowPowerModeDetection"/>
+  </js-module>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="lowPowerModeDetection">
+        <param name="ios-package" value="lowPowerModeDetection"/>
+      </feature>
+    </config-file>
+    <source-file src="src/ios/lowPowerModeDetection.m"/>
+  </platform>
+</plugin>
